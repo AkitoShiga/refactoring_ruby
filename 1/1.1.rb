@@ -465,9 +465,9 @@ class Movie
   end
 end
 
-
-
 # 呼び出し元にPriceのクラスを渡させるようにする
 class Movie
   attr_writer :price
 end
+
+movie = Movie.new("Star Wars", RegularPrice.new)
