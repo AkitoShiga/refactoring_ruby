@@ -56,4 +56,3 @@ class Order
     @customer = Customer.new(value) # 代入ではなく、newする! 代入しないのは、元の立ち位置が値オブジェクトだったから
   end
 end
-
